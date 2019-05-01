@@ -1,0 +1,11 @@
+{
+ "hosting": {
+   // ...
+
+   // Add the "rewrites" attribute within "hosting"
+   "rewrites": [ {
+     "source": "**",
+     "function": "app"
+   } ]
+ }
+}

@@ -1,10 +1,10 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +13,19 @@
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
     "express": "^4.16.4",
+    "firebase-tools": "^6.7.1",
     "mongoose": "^5.3.9"
   },
   "devDependencies": {
     "nodemon": "^1.18.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/messyhairs/sampleapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/messyhairs/sampleapi/issues"
+  },
+  "homepage": "https://github.com/messyhairs/sampleapi#readme",
+  "description": ""
 }
